@@ -2,7 +2,6 @@ var path = require('path');
 var fs = require('fs');
 var mime = require('mime');
 var watch = require('watch');
-    var util = require('util');
 
 function ArithmeticIndexer() {
     this.paths = [];
@@ -16,7 +15,6 @@ function fileIsText(entry) {
 
 var r = /(\w{4,})/g;
 function parseTextFile(wordMap, entry) {
-    console.log('parseTextFile', entry);
     fs.readFile(entry, function (err, content) {
         var str = content.toString().match(r);
         if (str) {
@@ -55,7 +53,6 @@ function parseTextFile(wordMap, entry) {
             wordMap[fs.realpathSync(entry)] = map;
         }
     });
-    console.log(wordMap);
 }
 
 ArithmeticIndexer.prototype.addDir = function (path) {
