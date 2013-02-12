@@ -1,0 +1,26 @@
+{
+  "author": {
+    "name": "Alexey Evdokimov",
+    "email": "pastorgl@ya.ru",
+    "url": "http://github.com/PastorGL"
+  },
+  "dependencies": {},
+  "description": "A library for arithmetic indexing of Russian texts",
+  "devDependencies": {},
+  "keywords": [
+    "util",
+    "full-text",
+    "indexing"
+  ],
+  "main": "arithmeticIndexer.js",
+  "name": "arithmeticIndexer",
+  "repository": {
+    "url": "https://github.com/PastorGL/arithmeticIndexer.js",
+    "type": "git"
+  },
+  "version": "1.0.0",
+  "readme": "# arithmeticIndexer\n\nA library for arithmetic indexing of Russian texts\n",
+  "readmeFilename": "README.md",
+  "_id": "arithmeticIndexer@1.0.0",
+  "_from": "arithmeticIndexer@"
+}
